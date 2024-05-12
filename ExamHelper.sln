@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamHelper.Client", "ExamHe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamHelper.Worker", "ExamHelper.Worker\ExamHelper.Worker.csproj", "{D009F9C7-B618-4941-94FE-2F8F12F92D76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamHelper.Web", "ExamHelper.Web\ExamHelper.Web.csproj", "{2BCE99D8-B6FB-4EF1-8C86-4FEDF60C1DC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D009F9C7-B618-4941-94FE-2F8F12F92D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D009F9C7-B618-4941-94FE-2F8F12F92D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D009F9C7-B618-4941-94FE-2F8F12F92D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BCE99D8-B6FB-4EF1-8C86-4FEDF60C1DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCE99D8-B6FB-4EF1-8C86-4FEDF60C1DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCE99D8-B6FB-4EF1-8C86-4FEDF60C1DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCE99D8-B6FB-4EF1-8C86-4FEDF60C1DC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
