@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-ExamHelper.Worker-d925257d-7007-49e3-9d93-84976dc02a33</UserSecretsId>
+		<OutputType>exe</OutputType>
+		<PublishSingleFile Condition="'$(Configuration)' == 'Release'">true</PublishSingleFile>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<PlatformTarget>x64</PlatformTarget>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
+		<PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+		<PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+		<PackageReference Include="System.Drawing.Common" Version="8.0.4" />
+	</ItemGroup>
+</Project>
